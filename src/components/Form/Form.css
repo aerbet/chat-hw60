@@ -1,0 +1,14 @@
+form {
+    text-align: right;
+    padding: 10px 10px;
+    background: #39547c;
+    color: #fff;
+}
+
+form label {
+    margin-right: 5px;
+}
+form input {
+    margin-right: 20px;
+    padding: 5px 10px;
+}

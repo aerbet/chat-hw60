@@ -4,7 +4,7 @@
     position: relative;
     margin-bottom: 15px;
     padding: 5px;
-    background: #644db6;
+    background: #39547c;
     background-size: 30px;
     border-radius: 10px 10px 10px 0;
 }
@@ -16,12 +16,12 @@
 .message .send {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: 1px solid #455a64;
+    border-radius: 25%;
+    border: 2px solid #455a64;
     padding: 5px;
     position: absolute;
-    top: 37%;
-    left: -68px;
+    top: 10%;
+    left: -70px;
 }
 .message .time {
     position: absolute;
@@ -42,13 +42,13 @@
     font-weight: normal;
 }
 .message .text {
-    font-style: italic;
+    font-weight: 500;
     color: #212121;
 }
 .message:after {
     content: "";
     position: absolute;
-    left: -14px;
+    right: 0;
     bottom: 0;
     width: 0;
     height: 0;
