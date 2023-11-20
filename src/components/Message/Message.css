@@ -1,0 +1,65 @@
+.message {
+    list-style: none;
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: #644db6;
+    background-size: 30px;
+    border-radius: 10px 10px 10px 0;
+}
+
+.message p {
+    margin: 5px;
+}
+
+.message .send {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #455a64;
+    padding: 5px;
+    position: absolute;
+    top: 37%;
+    left: -68px;
+}
+.message .time {
+    position: absolute;
+    top: 15%;
+    right: 10px;
+}
+
+.message .author {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.message .author span {
+    text-transform: none;
+    color: black;
+    font-weight: normal;
+}
+.message .text {
+    font-style: italic;
+    color: #212121;
+}
+.message:after {
+    content: "";
+    position: absolute;
+    left: -14px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 13px 14px;
+    border-color: transparent transparent #4db6ac transparent;
+}
+
+
+@media screen and (max-width: 780px){
+    .chatBox {
+        margin: 20px 0 65px 50px;
+    }
+}

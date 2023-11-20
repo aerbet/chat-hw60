@@ -11,6 +11,7 @@ const App = () => {
   return (
     <>
       <div className="App">
+        <Form />
         <ChatBox messages={messages}/>
       </div>
     </>
