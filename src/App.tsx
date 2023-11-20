@@ -3,12 +3,16 @@ import ChatBox from "./components/ChatBox/ChatBox.tsx";
 import Form from "./components/Form/Form.tsx";
 import './App.css'
 
-function App() {
+const App = () => {
+  const [messages, setMessages] = useState([])
+  const [datetime, setDatetime] = useState(null)
 
 
   return (
     <>
-
+      <div className="App">
+        <ChatBox messages={messages}/>
+      </div>
     </>
   )
 }
